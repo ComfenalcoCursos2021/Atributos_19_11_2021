@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+}
+a[href$=".png"]::after{
+    content: attr(download) " Descargar";
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    background: #001aff;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* [rel*="noreferrer"]{
+    background: red;
+} */
